@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "Awesome description",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
   },
   "keywords": [],
   "author": "Isabelle Vandooren",
